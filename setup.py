@@ -17,7 +17,7 @@ setup(
 name='student-performance indicator',
 version='0.0.1',
 author='brian',
-author_email='korosbrian574gmail.com',
+author_email='korosbrian@574gmail.com',
 packages=find_packages(),
 install_requires=get_requirements('requirements.txt')
 )
