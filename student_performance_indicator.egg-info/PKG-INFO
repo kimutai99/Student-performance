@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: student-performance-indicator
+Version: 0.0.1
+Author: brian
+Author-email: korosbrian574gmail.com
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: pandas

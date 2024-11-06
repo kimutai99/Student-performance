@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+student_performance_indicator.egg-info/PKG-INFO
+student_performance_indicator.egg-info/SOURCES.txt
+student_performance_indicator.egg-info/dependency_links.txt
+student_performance_indicator.egg-info/requires.txt
+student_performance_indicator.egg-info/top_level.txt
