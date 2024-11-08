@@ -20,6 +20,7 @@ class DataIngestion:
         
         try:
             df=pd.read_csv("stud.csv")
+            
             logging.info("Read the dataset as dataframe")
             #creating folder for these data
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
