@@ -1,3 +1,7 @@
 numpy
 seaborn
 pandas
+scikt-learn
+dill
+matplotlib
+#-e .
