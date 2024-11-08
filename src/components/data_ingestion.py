@@ -17,6 +17,7 @@ class DataIngestion:
         self.ingestion_config=DataIngestionConfig()
     def iniatiate_data_ingestion(self):
         logging.info("Entered the data Ingestion method or component")
+        
         try:
             df=pd.read_csv("stud.csv")
             logging.info("Read the dataset as dataframe")
