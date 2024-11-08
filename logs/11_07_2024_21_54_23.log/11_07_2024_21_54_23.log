@@ -1,0 +1,16 @@
+[ 2024-11-07 21:56:03,810 ] 19 root - INFO - Entered the data Ingestion method or component
+[ 2024-11-07 21:56:03,821 ] 22 root - INFO - Read the dataset as dataframe
+[ 2024-11-07 21:56:03,835 ] 26 root - INFO - train test split iniated
+[ 2024-11-07 21:56:03,847 ] 30 root - INFO - ingestion of data is completed
+[ 2024-11-07 21:56:15,424 ] 19 root - INFO - Entered the data Ingestion method or component
+[ 2024-11-07 21:56:15,434 ] 22 root - INFO - Read the dataset as dataframe
+[ 2024-11-07 21:56:15,442 ] 26 root - INFO - train test split iniated
+[ 2024-11-07 21:56:15,455 ] 30 root - INFO - ingestion of data is completed
+[ 2024-11-07 21:56:17,167 ] 19 root - INFO - Entered the data Ingestion method or component
+[ 2024-11-07 21:56:17,204 ] 22 root - INFO - Read the dataset as dataframe
+[ 2024-11-07 21:56:17,224 ] 26 root - INFO - train test split iniated
+[ 2024-11-07 21:56:17,250 ] 30 root - INFO - ingestion of data is completed
+[ 2024-11-07 21:56:18,474 ] 19 root - INFO - Entered the data Ingestion method or component
+[ 2024-11-07 21:56:18,480 ] 22 root - INFO - Read the dataset as dataframe
+[ 2024-11-07 21:56:18,488 ] 26 root - INFO - train test split iniated
+[ 2024-11-07 21:56:18,499 ] 30 root - INFO - ingestion of data is completed
