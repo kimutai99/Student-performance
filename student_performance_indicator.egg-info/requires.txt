@@ -4,4 +4,6 @@ pandas
 scikt-learn
 dill
 matplotlib
+catboost
+xgboost
 #-e .
