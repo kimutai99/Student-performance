@@ -1,0 +1,13 @@
+[ 2024-11-10 12:11:18,553 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-11-10 12:11:18,560 ] 97 werkzeug - INFO -  * Debugger PIN: 605-122-400
+[ 2024-11-10 12:11:29,004 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 12:11:29] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-11-10 12:11:29,231 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 12:11:29] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-11-10 12:11:29,242 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 12:11:29] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-11-10 12:11:29,274 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 12:11:29] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=FrUkw22c3QhA9FuBE0nT HTTP/1.1" 200 -
+[ 2024-11-10 12:11:29,297 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 12:11:29] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-11-10 12:11:35,656 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 12:11:35] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-11-10 12:11:35,679 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 12:11:35] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-11-10 12:11:35,681 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 12:11:35] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-11-10 12:11:35,701 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 12:11:35] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=FrUkw22c3QhA9FuBE0nT HTTP/1.1[0m" 304 -
+[ 2024-11-10 12:11:35,715 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 12:11:35] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-11-10 12:13:22,368 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\Student-performance\\Student-performance\\src\\pipeline\\predict_pipeline.py', reloading
