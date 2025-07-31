@@ -1,15 +1,15 @@
-# Build essentials
+# Build essentials - MUST COME FIRST
 setuptools==68.2.2
 wheel==0.41.3
-Cython==3.0.6
+Cython==0.29.36  # Downgraded for better compatibility
 
-# Core packages
-numpy==1.23.5
-pandas==1.5.3
-scikit-learn==1.2.2
+# Core packages with binary installs
+numpy==1.23.5 --only-binary=numpy
+pandas==1.5.3 --only-binary=pandas
+scikit-learn==1.2.2 --only-binary=scikit-learn
 
 # Lightweight alternatives
-lightgbm==3.3.5  # Instead of xgboost/catboost
+lightgbm==3.3.5 --only-binary=lightgbm
 Flask==2.3.2
 gunicorn==20.1.0
 joblib==1.2.0
