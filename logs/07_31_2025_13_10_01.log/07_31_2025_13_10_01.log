@@ -1,0 +1,9 @@
+[ 2025-07-31 13:10:01,979 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-07-31 13:10:01,979 ] 97 werkzeug - INFO -  * Debugger PIN: 224-571-016
+[ 2025-07-31 13:10:03,137 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 13:10:03] "GET / HTTP/1.1" 200 -
+[ 2025-07-31 13:10:33,752 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 13:10:33] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-07-31 13:11:06,098 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 13:11:06] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-07-31 13:12:01,947 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 13:12:01] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-07-31 13:13:08,872 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\exceptions.py', reloading
+[ 2025-07-31 13:13:09,611 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\student predictions\\Student-performance\\app.py', reloading
+[ 2025-07-31 13:13:09,612 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\student predictions\\Student-performance\\app.py', reloading

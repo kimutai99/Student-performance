@@ -1,0 +1,9 @@
+[ 2025-07-31 14:14:57,699 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-07-31 14:14:57,699 ] 97 werkzeug - INFO -  * Debugger PIN: 224-571-016
+[ 2025-07-31 14:14:59,485 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 14:14:59] "GET / HTTP/1.1" 200 -
+[ 2025-07-31 14:15:35,360 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 14:15:35] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-07-31 14:19:57,823 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 14:19:57] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-07-31 14:20:22,597 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 14:20:22] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-07-31 14:21:33,547 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 14:21:33] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-07-31 14:22:28,071 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 14:22:28] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-07-31 14:22:53,347 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 14:22:53] "POST /predictdata HTTP/1.1" 200 -

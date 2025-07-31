@@ -1,0 +1,4 @@
+[ 2025-07-31 13:09:31,992 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-07-31 13:09:32,000 ] 97 werkzeug - INFO -  * Debugger PIN: 224-571-016
+[ 2025-07-31 13:09:55,153 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\student predictions\\Student-performance\\app.py', reloading
+[ 2025-07-31 13:09:55,159 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Projects\\student predictions\\Student-performance\\app.py', reloading

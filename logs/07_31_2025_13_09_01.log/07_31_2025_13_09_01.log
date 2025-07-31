@@ -1,0 +1,24 @@
+[ 2025-07-31 13:09:01,450 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-07-31 13:09:01,456 ] 97 werkzeug - INFO -  * Debugger PIN: 224-571-016
+[ 2025-07-31 13:09:01,523 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\gitdb\\db\\pack.py', reloading
+[ 2025-07-31 13:09:01,555 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\gitdb\\db\\git.py', reloading
+[ 2025-07-31 13:09:01,582 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\gitdb\\db\\ref.py', reloading
+[ 2025-07-31 13:09:01,620 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\git\\cmd.py', reloading
+[ 2025-07-31 13:09:01,652 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\git\\repo\\__init__.py', reloading
+[ 2025-07-31 13:09:01,687 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\git\\repo\\base.py', reloading
+[ 2025-07-31 13:09:01,716 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\git\\remote.py', reloading
+[ 2025-07-31 13:09:01,764 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\git\\util.py', reloading
+[ 2025-07-31 13:09:01,817 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\git\\index\\__init__.py', reloading
+[ 2025-07-31 13:09:01,851 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\git\\index\\typ.py', reloading
+[ 2025-07-31 13:09:01,906 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\git\\index\\base.py', reloading
+[ 2025-07-31 13:09:01,959 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\gitdb\\__init__.py', reloading
+[ 2025-07-31 13:09:01,988 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\h11\\__init__.py', reloading
+[ 2025-07-31 13:09:02,179 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\h11\\_connection.py', reloading
+[ 2025-07-31 13:09:02,231 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\h11\\_events.py', reloading
+[ 2025-07-31 13:09:02,273 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\h11\\_state.py', reloading
+[ 2025-07-31 13:09:02,310 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\h11\\_util.py', reloading
+[ 2025-07-31 13:09:02,335 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\h5py\\__init__.py', reloading
+[ 2025-07-31 13:09:02,378 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\httpcore\\__init__.py', reloading
+[ 2025-07-31 13:09:02,419 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\httpcore\\_api.py', reloading
+[ 2025-07-31 13:09:02,455 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\httpcore\\_async\\__init__.py', reloading
+[ 2025-07-31 13:09:02,490 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\httpcore\\_async\\interfaces.py', reloading

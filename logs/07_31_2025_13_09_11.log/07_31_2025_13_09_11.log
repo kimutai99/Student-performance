@@ -1,0 +1,20 @@
+[ 2025-07-31 13:09:12,254 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-07-31 13:09:12,259 ] 97 werkzeug - INFO -  * Debugger PIN: 224-571-016
+[ 2025-07-31 13:09:12,308 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 13:09:12] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2025-07-31 13:09:12,325 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\misc\\_common.py', reloading
+[ 2025-07-31 13:09:12,344 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\ndimage\\__init__.py', reloading
+[ 2025-07-31 13:09:12,403 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\ndimage\\_filters.py', reloading
+[ 2025-07-31 13:09:12,459 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\ndimage\\_fourier.py', reloading
+[ 2025-07-31 13:09:12,493 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\ndimage\\_interpolation.py', reloading
+[ 2025-07-31 13:09:12,554 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\ndimage\\_measurements.py', reloading
+[ 2025-07-31 13:09:12,586 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\ndimage\\_morphology.py', reloading
+[ 2025-07-31 13:09:12,679 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\odr\\__init__.py', reloading
+[ 2025-07-31 13:09:12,734 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\odr\\_odrpack.py', reloading
+[ 2025-07-31 13:09:12,782 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\odr\\_models.py', reloading
+[ 2025-07-31 13:09:12,823 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\optimize\\__init__.py', reloading
+[ 2025-07-31 13:09:12,892 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\optimize\\_optimize.py', reloading
+[ 2025-07-31 13:09:13,002 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\optimize\\_minimize.py', reloading
+[ 2025-07-31 13:09:13,063 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\optimize\\_root.py', reloading
+[ 2025-07-31 13:09:13,109 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\optimize\\_root_scalar.py', reloading
+[ 2025-07-31 13:09:13,200 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\optimize\\_minpack_py.py', reloading
+[ 2025-07-31 13:09:13,293 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\optimize\\_zeros_py.py', reloading

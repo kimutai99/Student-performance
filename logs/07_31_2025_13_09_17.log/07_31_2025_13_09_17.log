@@ -1,0 +1,4 @@
+[ 2025-07-31 13:09:18,683 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-07-31 13:09:18,693 ] 97 werkzeug - INFO -  * Debugger PIN: 224-571-016
+[ 2025-07-31 13:09:18,947 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Jul/2025 13:09:18] "[33mGET / HTTP/1.1[0m" 404 -
+[ 2025-07-31 13:09:18,968 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\UER\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\xgboost\\sklearn.py', reloading

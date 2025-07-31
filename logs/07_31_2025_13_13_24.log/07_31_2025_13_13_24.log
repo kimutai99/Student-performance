@@ -1,0 +1,2 @@
+[ 2025-07-31 13:13:24,748 ] 72 __main__ - INFO - Starting application in production mode
+[ 2025-07-31 13:13:24,769 ] 485 waitress - INFO - Serving on http://0.0.0.0:5000

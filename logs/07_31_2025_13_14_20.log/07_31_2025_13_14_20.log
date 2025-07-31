@@ -1,0 +1,6 @@
+[ 2025-07-31 13:14:20,343 ] 72 __main__ - INFO - Starting application in production mode
+[ 2025-07-31 13:14:20,346 ] 485 waitress - INFO - Serving on http://0.0.0.0:5000
+[ 2025-07-31 13:15:21,552 ] 47 __main__ - INFO - Received prediction request with data: {'gender': {0: 'male'}, 'race_ethnicity': {0: 'group A'}, 'parental_level_of_education': {0: "associate's degree"}, 'lunch': {0: 'free/reduced'}, 'test_preparation_course': {0: 'none'}, 'reading_score': {0: 12.0}, 'writing_score': {0: 12.0}}
+[ 2025-07-31 13:15:21,872 ] 53 __main__ - INFO - Prediction completed with result: 16.75
+[ 2025-07-31 13:15:39,855 ] 47 __main__ - INFO - Received prediction request with data: {'gender': {0: 'male'}, 'race_ethnicity': {0: 'group A'}, 'parental_level_of_education': {0: "associate's degree"}, 'lunch': {0: 'free/reduced'}, 'test_preparation_course': {0: 'none'}, 'reading_score': {0: 12.0}, 'writing_score': {0: 12.0}}
+[ 2025-07-31 13:15:39,886 ] 53 __main__ - INFO - Prediction completed with result: 16.75
