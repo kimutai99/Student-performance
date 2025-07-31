@@ -1,15 +1,15 @@
-# Build essentials
-setuptools==65.5.0  # Downgraded for compatibility
+# Build essentials - MUST BE FIRST
+setuptools==65.5.0
 wheel==0.41.3
 Cython==0.29.36
 
-# Core packages (verified working versions)
-numpy==1.24.4
-pandas==2.0.3
-scikit-learn==1.3.2
+# Core packages with binary-only installs
+numpy==1.24.4 --only-binary=numpy
+pandas==2.0.3 --only-binary=pandas
+scikit-learn==1.3.2 --only-binary=scikit-learn
 
 # Lightweight alternatives
-lightgbm==3.3.5
+lightgbm==3.3.5 --only-binary=lightgbm
 Flask==2.3.2
 gunicorn==20.1.0
 joblib==1.2.0
