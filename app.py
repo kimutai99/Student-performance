@@ -1,16 +1,16 @@
 from flask import Flask, request, render_template
+import os
 import numpy as np
 import pandas as pd
 import sklearn
 from joblib import load
 import warnings
 
+app = Flask(__name__)
+
 # Force sklearn version compatibility
 sklearn.__version__ = "1.5.2"
 warnings.filterwarnings("ignore", category=UserWarning)
-
-application = Flask(__name__)
-app = application
 
 # Load model at startup
 try:
@@ -20,12 +20,10 @@ except Exception as e:
     print(f"! Model loading failed: {str(e)}")
     raise
 
-# Route for home page
 @app.route('/')
 def index():
-    return render_template('home.html') 
+    return render_template('home.html')
 
-# Route for prediction
 @app.route('/predictdata', methods=['GET', 'POST'])
 def predict_datapoint():
     if request.method == 'GET':
@@ -88,5 +86,14 @@ def predict_datapoint():
                                 form_data=form_data if 'form_data' in locals() else None,
                                 results=None)
 
+def run_server():
+    if os.name == 'nt':  # Windows
+        from waitress import serve
+        print("Running Waitress server on Windows...")
+        serve(app, host="0.0.0.0", port=8080)
+    else:  # Linux/Mac (Render.com)
+        print("Running Gunicorn server on Render...")
+        app.run(host="0.0.0.0", port=10000)
+
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
+    run_server()
