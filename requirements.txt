@@ -1,7 +1,10 @@
 numpy==1.24.4
+seaborn==0.13.2
 pandas==2.0.3
-scikit-learn==1.5.2
+scikit-learn==1.5.2  # Must match your training version
+dill==0.3.8
+catboost==1.2.4
+xgboost==2.0.3
 Flask==3.0.2
 gunicorn==21.2.0
 joblib==1.3.2
-xgboost==2.0.3
