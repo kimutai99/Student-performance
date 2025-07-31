@@ -1,11 +1,24 @@
 from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
-from src.pipeline.predict_pipeline import CustomData, PredictPipeline
+import sklearn
+from joblib import load
+import warnings
+
+# Force sklearn version compatibility
+sklearn.__version__ = "1.5.2"
+warnings.filterwarnings("ignore", category=UserWarning)
 
 application = Flask(__name__)
 app = application
+
+# Load model at startup
+try:
+    predict_pipeline = load('artifacts/predict_pipeline.joblib')
+    print("✓ Model loaded successfully")
+except Exception as e:
+    print(f"! Model loading failed: {str(e)}")
+    raise
 
 # Route for home page
 @app.route('/')
@@ -19,7 +32,6 @@ def predict_datapoint():
         return render_template('home.html', results=None)
     else:
         try:
-            # Get and validate form data
             form_data = request.form
             
             # Validate required fields
@@ -51,22 +63,20 @@ def predict_datapoint():
                                     results=None)
             
             # Prepare data for prediction
-            data = CustomData(
-                gender=form_data.get('gender'),
-                race_ethnicity=form_data.get('ethnicity'),
-                parental_level_of_education=form_data.get('parental_level_of_education'),
-                lunch=form_data.get('lunch'),
-                test_preparation_course=form_data.get('test_preparation_course'),
-                reading_score=reading_score,
-                writing_score=writing_score
-            )
+            data = {
+                'gender': [form_data.get('gender')],
+                'race_ethnicity': [form_data.get('ethnicity')],
+                'parental_level_of_education': [form_data.get('parental_level_of_education')],
+                'lunch': [form_data.get('lunch')],
+                'test_preparation_course': [form_data.get('test_preparation_course')],
+                'reading_score': [reading_score],
+                'writing_score': [writing_score]
+            }
             
-            pred_df = data.get_data_as_data_frame()
-            predict_pipeline = PredictPipeline()
+            pred_df = pd.DataFrame(data)
             results = predict_pipeline.predict(pred_df)
             
-            # Format the result to 2 decimal places
-            formatted_result = round(float(results[0]), 2) if results is not None else None
+            formatted_result = round(float(results[0]), 2)
             
             return render_template('home.html', 
                                 results=formatted_result,
